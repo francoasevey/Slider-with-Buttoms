@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.slider-wrapper{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/ 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 .25rem .5rem #212121;
+}
