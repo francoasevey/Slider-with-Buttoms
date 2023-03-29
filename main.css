@@ -14,5 +14,11 @@
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    box-shadow: 0 .25rem .5rem #212121;
+    box-shadow: 0 .25rem .5rem #21212126;
+    border-radius: .5rem;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
 }
